@@ -1,5 +1,5 @@
 # CommandLineBatchFiles
-This is a repository for batch files to be used with c++ command line operations.
+This is a repository for batch files to be used with **C++** command line operations. This uses the ```-std=c++17 -Wall -pedantic``` compiler flags.
 
 # How to use:
 1. Copy the batch files to the source directory where your projects will go i.e. ```C:\cpp\```
