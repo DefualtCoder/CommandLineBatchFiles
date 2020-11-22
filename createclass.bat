@@ -1,4 +1,9 @@
 @echo off
+::===============================================================
+::					CREATECLASS.BAT
+::         Written by: Default Coder ~Roy K.~
+::    Creates CPP class source(.cpp) and header files(.h)
+::===============================================================
 
 :makeclass
 echo Enter Class Name: 

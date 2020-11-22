@@ -1,4 +1,10 @@
 @echo off
+::======================================================================
+::								BUILD.BAT
+::                 Written by: Default Coder ~Roy K.~
+:: Compiles all source(.cpp) files and links to a executable(.exe) file
+::======================================================================
+
 setlocal EnableDelayedExpansion
 for %%f in (*.cpp) do (
     call set "Myvar=%%Myvar%% %%f"

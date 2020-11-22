@@ -1,4 +1,9 @@
 @echo off
+::===============================================================
+::				  CREATEPROJECT.BAT
+::         Written by: Default Coder ~Roy K.~
+::    Creates project directory and project files
+::===============================================================
 
 :makedir
 echo Enter Project Name: 
