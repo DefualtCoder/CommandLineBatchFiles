@@ -14,9 +14,6 @@ This is a repository for batch files to be used with **C++** command line operat
 
 5. **clean.bat** -> deletes the ```main.exe``` file from your project directory. Just type <b>clean</b> and press enter while in the project directory.
 
-### **Warning:** 
-#### Do not run the ```execute.bat``` by itself as this will close the current open cmd window. 
-
 6. If you are using a different text editor than notepad++, you can make some small edits to use with your text editor:
            
       -**A.** In the **createproject.bat** on line 32 we can change:
@@ -34,4 +31,9 @@ This is a repository for batch files to be used with **C++** command line operat
       TO:
           
       `IF EXIST "path\to\yourtexteditor.exe" (yourtexteditor %CD%\%folderName%\main.cpp) ELSE (notepad %CD%\!folderName!\main.cpp)`
+
+
+### **Warning:** 
+#### Do not run the ```execute.bat``` by itself as this will close the current open cmd window. 
+
             
